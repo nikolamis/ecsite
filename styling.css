@@ -1,0 +1,247 @@
+
+body{
+    font-family: Arvo, serif;
+    background: url(images/232.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    height: 30px;   
+}
+
+
+#navbarCollapse{
+    float: right;
+}
+
+
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);   
+    
+}
+
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+    
+}  
+
+.nav li:hover{
+    border-bottom: 1px solid #00FFB8; 
+    padding-bottom: 9px;
+    cursor: pointer;
+} 
+
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+
+.container{
+    max-width: 1000px;   
+}
+
+.bodyimage{
+    height: 100px;   
+}
+
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+
+.icons p{
+    font-size: 15px;   
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.contact .button:hover{
+    background-color: black;
+}
+.contact .btn .button:visited{
+    background-color: white;
+}
+
+
+.footer-top{
+    background: rgba(0,0,0,0.5);
+}
+
+
+
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    background-color:white;
+    
+    opacity: 0.5;
+}
+
+.bg-lightgray .paragraf{
+    color:#00FFB8;
+    font-weight: 700;
+}
+
+/*use media queries to change icons size in small devices*/
+@media (max-width: 768px){
+    .bodyimage{
+        height: 70px;   
+    }
+}
+
+
+
+
+/* o nama stranica*/
+
+#onama{
+background: white;
+opacity: 0.8;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+.btn-primary.outline {
+	border: 2px solid #00FFB8;
+	color: black;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color:#00FFB8;
+	border-color: black;
+    background: black;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #00FFB8;
+	color: black;
+	box-shadow: none;
+}
+.button-wrap {
+    display: inline-block;
+    margin-top: 70px ;
+    margin-left: 150px;
+}
+
+/* kontakt*/
+
+#kontakt{
+background: white;
+opacity: 0.8;
+}
+
+
+/* faq */
+
+#faq{
+background: white;
+opacity: 0.8;
+}
+
+.dugmence {
+    float:right;
+}
+ 
+
+/* usliuge */
+
+#unaslov{
+color: white;
+}
+
+.btn.outline.usluge {
+	background: white;
+    opacity: 0.6;
+	padding: 12px 22px;
+}
+
+.btn-primary.outline.usluge {
+	border: 2px solid #00FFB8;
+	color: black;
+}
+.btn-primary.outline.usluge:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color:#00FFB8;
+	border-color: black;
+    background: black;
+}
+
+.btn-primary.outline.usluge:active, .btn-primary.outline.active {
+	border-color: #00FFB8;
+	color: black;
+	box-shadow: none;
+}
+
+.button-wrap.usluge {
+    display: inline-block;
+    margin-top: 70px ;
+    margin-left: 150px;
+}
+
+
+#mapasajta{
+    background: white;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.pagination{
+    float:center;
+}
+
+#naslovportfolio{
+    font-weight: bold;
+    color:black;
+    font-size: 25px;
+    transition: all 1s ;
+}
+#naslovportfolio:hover{
+    color:#00FFB8;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+#naslov2 {
+    color:white;
+}
+
+.timslike {
+     border-radius: 50%;
+}
+
+.dugmepočetna {
+     display: inline-block;
+     
+}
+
+

@@ -1,0 +1,81 @@
+body{
+background-color: white;}
+
+.row{
+    padding-top: 50px;
+}
+
+.pricingTable{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0px 30px 30px;
+  
+}
+
+.pricingTable .pricingTable-header{
+    width: 210px;
+    background: black;
+    color: white;
+    margin: -15px auto 95px;
+    padding-top: 35px;
+    position: relative;
+}
+.pricingTable .pricingTable-header:before{
+    content: "";
+    border-width: 0 0 15px 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) black;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+.pricingTable .pricingTable-header:after{
+    content: "";
+    border-width: 15px 0 0 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) black;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+.pricingTable .heading{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 5px 0;
+    text-transform: uppercase;
+    position: relative;
+}
+.pricingTable .heading:after{
+    content: "";
+    border-width: 60px 105px 0;
+    border-style: solid;
+    border-color: black rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: -108px;
+    left: 0;
+}
+.pricingTable .currency,
+.pricingTable .month{
+    font-size: 20px;
+}
+.pricingTable .price-value{
+    font-size: 30px;
+}
+.pricingTable .pricing-content ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+.pricingTable .pricing-content ul li{
+    font-size: 18px;
+    color: black;
+    line-height: 40px;
+}
+
+
+
+
+
+@media only screen and (max-width:990px){
+    .pricingTable{ margin-bottom: 50px; }
+}

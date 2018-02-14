@@ -1,0 +1,89 @@
+.footer-distributed{
+	background-color: white;
+    opacity: 0.6;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+/*    height: 50px;*/
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 30px 50px; /*ovde promeniti levo i desno da bi se uklopilo kao u kontejner*/
+	margin-top: 80px;
+    position: relative;
+}
+
+.footer-distributed .footer-left p{
+	color:  black;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  black;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.footer-distributed .footer-right a:hover{
+    color:#00FFB8;
+}
+
+.footer-distributed p.footer-links a{
+    font-size: 12px;
+}
+.footer-distributed p.footer-links a:hover{
+    font-size: 18px;
+    transition: all 0.7s ease 0s;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
